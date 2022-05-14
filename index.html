@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html><!-- Tag html-->
+
+    <head>
+
+        <!-- Responsável por receber configurações da página-->
+        <title>Casa Criativa</title>
+
+        <link href="https://fonts.google.com/share?selection.family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+  
+        <div id="container">
+
+            <section id="intro">
+
+                <img src="CafeDivino.png">
+
+                <p><strong> What is Lorem Ipsum?</strong></p>
+                <p class="fat"> 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <p> 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, but also the leap into 
+                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including 
+                    versions of Lorem Ipsum. 
+                </p>
+
+                <button>+ Adicionar Idéias</button>
+                <button class="fat">Ver Idéias</button>
+
+                <p id="footer">Com ❣ Café Divino</p>
+
+                <script src="scripts.js"></script>
+
+
+            </section>
+
+            <section id="last-ideias">
+                <div class="idea">
+                    <img
+                        src="Images/online.png"
+                        alt="Imagem de Curso de Programação"
+                    >
+                    <div class="content">
+                        <h3>Cursos de Programação</h3>
+                        <p>Estudo</p>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, impedit earum, 
+                            sint dolores inventore eveniet a dignissimos dicta voluptates consectetur quibusdam 
+                            quae quos totam repudiandae neque voluptas harum dolor saepe!
+                        </div>
+                        <a href="#">Ir para Ideia</a>
+                    </div>
+                </div>
+
+                <div class="idea">
+                    <img
+                        src="Images/cardio-exercises.png"
+                        alt="Imagem de Praticando Exercício"
+                    >
+                    <div class="content">
+                        <h3>Praticando Exercício</h3>
+                        <p>Saúde</p>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, impedit earum, 
+                            sint dolores inventore eveniet a dignissimos dicta voluptates consectetur quibusdam 
+                            quae quos totam repudiandae neque voluptas harum dolor saepe!
+                        </div>
+                        <a href="#">Ir para Ideia</a>
+                    </div>
+                    
+                </div>
+
+                <div class="idea">
+                    <img
+                        src="Images/meditando.png"
+                        alt="Curso de Meditação"
+                    >
+                    <div class="content">
+                        <h3>Cursos de Meditação</h3>
+                        <p>Espiritualidade</p>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, impedit earum, 
+                            sint dolores inventore eveniet a dignissimos dicta voluptates consectetur quibusdam 
+                            quae quos totam repudiandae neque voluptas harum dolor saepe!
+                        </div>
+                        <a href="#">Ir para Ideia</a>
+                    </div>
+                    
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Modal -->
+        <div id="modal">
+            <div class="content">
+
+                <h1>Nova Idéia</h1>
+
+                <form action="">
+
+                    <div class="input-wrapper">
+                        <label for="title">Título da idéia</label>
+                        <input type="text" name="title">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="category">Título da Categoria</label>
+                        <input type="text" name="category">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="image">Link da Imagem</label>
+                        <input type="url" name="image">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="description">Digite uma Descrição para essa idéia</label>
+                        <textarea name="description_content" cols="90" rows="10"></textarea>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="link">Link da Idéia</label>
+                        <input type="url" name="link">
+                    </div>
+
+                    <div class="button-wrapper">
+                        <button>Salvar</button>    
+                    </div>                                    
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
